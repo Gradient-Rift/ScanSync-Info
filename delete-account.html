@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - ScanSync</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #ffffff;
+            --secondary-bg: #f3f4f6;
+            --border-color: #e5e7eb;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #1d4ed8);
+            color: white;
+            padding: 2rem;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            padding-top: 1rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .card {
+            background: var(--secondary-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .card h3 {
+            margin-bottom: 0.75rem;
+            color: var(--primary-color);
+        }
+
+        .warning {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--border-color);
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">ScanSync</a>
+            <span>Delete Account</span>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Delete Your Account</h1>
+
+        <p>We're sorry to see you go. This page explains how to delete your ScanSync account and what happens to your data.</p>
+
+        <h2>What Gets Deleted</h2>
+        <p>When you request account deletion, we will permanently delete:</p>
+        <ul>
+            <li>Your account profile and settings</li>
+            <li>All scanned documents and images</li>
+            <li>Folders and organizational data</li>
+            <li>Workflow configurations</li>
+            <li>Credit balance and transaction history</li>
+        </ul>
+
+        <div class="warning">
+            <strong>Important:</strong> Account deletion is permanent and cannot be undone. Please export any scans you want to keep before requesting deletion.
+        </div>
+
+        <h2>How to Request Deletion</h2>
+
+        <div class="card">
+            <h3>Option 1: From the App</h3>
+            <p>Go to <strong>Settings → Account → Delete Account</strong> and follow the prompts.</p>
+        </div>
+
+        <div class="card">
+            <h3>Option 2: Email Request</h3>
+            <p>Send an email to our support team with the subject line "Account Deletion Request":</p>
+            <a href="mailto:support@scan-sync.com?subject=Account%20Deletion%20Request&body=Please%20delete%20my%20ScanSync%20account.%0A%0AEmail%20associated%20with%20account%3A%20%5Byour%20email%5D" class="btn">Request Deletion via Email</a>
+            <p style="margin-top: 1rem; font-size: 0.9rem; color: #6b7280;">Please include the email address associated with your Google Sign-In.</p>
+        </div>
+
+        <h2>Processing Time</h2>
+        <p>Account deletion requests are processed within <strong>30 days</strong>. You will receive a confirmation email once your data has been deleted.</p>
+
+        <h2>Data Retained</h2>
+        <p>After deletion, we may retain:</p>
+        <ul>
+            <li>Anonymized analytics data (cannot identify you)</li>
+            <li>Records required for legal/financial compliance</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+        <p>Deleting your ScanSync account does not affect:</p>
+        <ul>
+            <li>Your Google account</li>
+            <li>Files you exported to Google Drive or OneDrive</li>
+            <li>Your Google Play purchase history</li>
+        </ul>
+        <p>To revoke ScanSync's access to these services, visit your <a href="https://myaccount.google.com/permissions">Google Account permissions</a> or <a href="https://account.live.com/consent/Manage">Microsoft Account permissions</a>.</p>
+
+        <h2>Questions?</h2>
+        <p>If you have questions about account deletion or data privacy, contact us at <a href="mailto:support@scan-sync.com">support@scan-sync.com</a>.</p>
+    </main>
+
+    <footer>
+        <p><a href="index.html">Back to Home</a> · <a href="privacy-policy.html">Privacy Policy</a></p>
+        <p>&copy; 2026 ScanSync. All rights reserved.</p>
+    </footer>
+</body>
+</html>
