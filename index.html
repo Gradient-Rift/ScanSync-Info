@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScanSync</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #ffffff;
+            --secondary-bg: #f3f4f6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            background: linear-gradient(135deg, var(--primary-color), #1d4ed8);
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        main {
+            padding: 3rem 0;
+        }
+
+        .card {
+            background: var(--secondary-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .card a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ScanSync</h1>
+            <p>Smart Document Scanning & Processing</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h2>About ScanSync</h2>
+            <p>ScanSync is a powerful document scanning app that helps you digitize, organize, and process your documents with ease. Features include OCR text extraction, receipt parsing, business card scanning, and seamless cloud integration.</p>
+        </div>
+
+        <div class="card">
+            <h2>Legal Documents</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="terms-of-service.html">Terms of Service</a> (Coming Soon)
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Support</h2>
+            <p>For questions, feedback, or support requests:</p>
+            <p style="margin-top: 0.5rem;"><a href="mailto:support@scan-sync.com">support@scan-sync.com</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ScanSync. All rights reserved.</p>
+    </footer>
+</body>
+</html>
